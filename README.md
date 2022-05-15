@@ -6,9 +6,9 @@ Pendulums are simple mechanical systems that have been studied for centuries and
 
 <center> Despite representing dynamics on vastly different scales, the planar restricted 3-body problem (PCR3BP) and the double pendulum bear a striking resemblance. The Lagrange points L1 and L2 in the PCR3BP are analogous to the saddle Down-Up and Up-Down states since they all have one-dimensional stable and unstable directions and a two-dimensional center direction. </center>
 
+![](Images/Analog2.png)
 
-
-
+<center> Hill’s region comparison of PCR3BP and double pendulum. The energy values Ei are meant to denote the transitions in which the Hill’s region is extended to include another critical point of the energy surface. </center>
 
 
 
