@@ -10,6 +10,10 @@ Pendulums are simple mechanical systems that have been studied for centuries and
 
 <center> Hill’s region comparison of PCR3BP and double pendulum. The energy values Ei are meant to denote the transitions in which the Hill’s region is extended to include another critical point of the energy surface. </center>
 
+## This repository contains the following folders:
+- Images: This folder contains the figures that demonstrate the resemblance between the double pendulum and PCR3BP.
+- 
+
 
 
 
