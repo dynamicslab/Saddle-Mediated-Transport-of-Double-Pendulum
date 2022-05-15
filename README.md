@@ -20,8 +20,22 @@ Pendulums are simple mechanical systems that have been studied for centuries and
 - Down-Up Saddle Homoclinic Orbits Visualization: This folder contains files that visualize the Down-Up homoclinic orbits of the double pendulum shown in Fig.8 of our paper.
 - Up-Down Saddle Homoclinic Orbits Visualization: This folder contains files that visualize the Up-Down homoclinic orbits of the double pendulum shown in Fig.10 of our paper.
 - Heteroclinic Orbit Transistion: This folder contains files that illustrate the motion of heteroclinic orbits shown in Fig.12 of our paper.
-- Julia Codes: This folder contains Julia code we used to calculate the periodic, homoclinic, heterclinic orbits of the double pendulum and PCR3BP.
+- Julia Codes: This folder contains Julia code we used to calculate the periodic, homoclinic, heteroclinic orbits of the double pendulum and PCR3BP.
 
+## Notes on runing the Julia code:
+- The version of Julia we used for this project is 1.6.5, with a computer that is equiped with AMD Ryzen 7 2700X Eight-core CPU and running Windows 10 OS.
+- The best way to set up the project is by running command "Pkg.instantiate()" in the Julia terminal.
+- All the packages needed for running the can be seen in "LoadPackages.jl".
+- All the functions needed for PCR3BP can be seen in "TubeFunctionTBP.jl". All the functions needed for double pendulum can be seen in "TubeFunctionDP.jl".
+- The plotting settings can be changed in "PlotSettings.jl".
+- Be patient when the packages are loading, it will take a while. 
+- Be patient when plotting the figure for the first time, it will take a while. This is called *"time to first plot"* problem in Julia.
+- For other details, pelase check the "Instruction.md" files located in "Julia Codes" folder. 
+
+## Cite: 
+If you find our project useful, please feel free to cite it as:
+
+(Empty for now, will update when the paper is uploaded to Arxiv).
 
 
 
