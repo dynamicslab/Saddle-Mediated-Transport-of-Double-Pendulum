@@ -28,7 +28,36 @@
 - Plot_TBP_GetHomoclinicL2.jl: This file is used to plot the L2 homoclinic orbits of the PCR3BP. The generated files are used in Fig.3 and 4 of our paper.
 - Plot_TBP_GetHeteroclinic.jl: This file is used to plot the heteroclinic orbits of the PCR3BP. The generated files are used in Fig.3 and 4 of our paper.
 
+## The following coding files are used in the analysis of the double pendulum's periodic, homoclinic, and heteroclinic ortbis.
+- TubeFunctionDP.jl: This file contains all the necessary functions needed to calculate the perioid, homoclinic, heteroclinic ornits of the double pendulum.
+- DoublePendulumSymbolicCalculation.m: This file is used to calculate the ODEs of the double pendulum.
+- DPE_Calculate2PiPO_DownUp.jl: This file is used to calculate the initial conditions of the special 2 Pi periodic orbits of the Down-Up position. This periodic orbit corresponse to the one we show in Fig.9 of our paper.
+- DPE_Calculate2PiPO_UpDown.jl: This file is used to calculate the initial conditions of the special 2 Pi periodic orbits of the Up-Down position. This periodic orbit corresponse to the one we show in Fig.11 of our paper.
+- DPE_CalculateTubePO.jl: This file is used to calculate the periodic orbits of the double pendulum. Those periodic orbits' motion are shown in Fig.6 of our paper.
+- DPE_CalculateTubes.jl: This file is used to calculate the tube structures shown in Fig.7 and Fig.9 of our paper.
+- DPE_CalculateTubesHeteroclinic.jl: This file is used to calculate the tube structures that generate the heteroclinic orbits shown in Fig.12 of our paper.
+- DPE_Generate_PO_Family.jl: This file is used to generate a family of periodic orbit for double pendulum at different energy level. It's result is used to plot the Fig.6 of our paper.
+- DPE_HeteroclinicTubeInc.jl: This file is used to generate the initial conditions that are used to simulate the tube structures. Its results are used in "DPE_HeteroclinicPoint.jl".
+- DPE_HeteroclinicPoint.jl: This file is used to calculate and plot the heteroclinic orbits of double pendulum. Its result is used to plot the Fig.12 and 13 of our paper.
+- DPE_HeteroclinicPoint_SecondCut.jl: This file is used to simulate the unstable tube of the double pendulum, until it hits the theta1=theta2 Poincare plane with negative velocity. Its result is used to plot the Fig.17 of our paper.
+- DPE_L1_Homoclinic_SecondCut.jl: This file is used to simulate the unstable tube of the double pendulum's L1 tube structures until it hit theta2=4Pi plane. It can be used to numerically prove the existence of the long homoclinic orbit. Its result is used to generate the Fig.16 of our paper.
+- DPE_L2_Homoclinic_SecondCut.jl: This file is used to simulate the unstable tube of the double pendulum's L2 tube structures until it hit theta1=4Pi plane. It can be used to numerically prove the existence of the long homoclinic orbit.
+- DPE_Swipe_L1_TubeEng.jl: This file is used to plot the intersections of the stable and unstable Down-Up tubes at different energy levels. Its results are used to plot the Fig.8 of our paper.
+- DPE_Swipe_L2_TubeEng.jl: This file is used to plot the intersections of the stable and unstable Up-Down tubes at different energy levels.
 
+## The folloiwng files are used to generate plots for double pendulum:
+- Plot_EDP_EngSurface.jl: This file is used to plot the energy surface of the double pendulum. The generated plots are used in Fig.1 and 2 of our paper.
+- Plot_EDP_HeteroPointcareFirstCut.jl: This file is used to plot the intersection of stable and unstable tubes of the double pendulum at theta1=theta2 Poincare plane. The generated plots are used in Fig.12 of the paper.
+- Plot_EDP_L1_Homoclinic.jl: This file is used to plot and generate the animation of the double pendulum's homoclinic orbits at the Down-Up position. The generated plots are used in Fig.7 of our paper.
+- Plot_EDP_L1_Poincare.jl: This file is used to plot the Poincare section of the double pendulum's Down-Up tubes. The generated plots are used in Fig.7 of our paper.
+- Plot_EDP_L2_Homoclinic.jl: This file is used to plot and generate the animation of the double pendulum's homoclinic orbits at the Up-Down position. The generated plots are used in Fig.10 of our paper.
+- Plot_EDP_L2_Poincare.jl: This file is used to plot the Poincare section of the double pendulum's Up-Down tubes. The generated plots are used in Fig.10 of our paper.
+- Plot_EDP_L1_Tube_Intersection_ColorWheel_CounterClockWiseRotation.jl: This file is used to generate figures for Fig.9 of our paper.
+- Plot_EDP_L2_Tube_Intersection_ColorWheel.jl: This file is used to generate figures for Fig.11 of our paper.
+- Plot_EDP_L1_Tubes_3D.jl: This file is used to plot the tube structures of the Down-Up saddle in 3D. The resulting plots are used in Fig.7 of our paper. 
+- Plot_EDP_L2_Tubes_3D.jl: This file is used to plot the tube structures of the Up-Down saddle in 3D. The resulting plots are used in Fig.10 of our paper. 
+- Plot_EDP_Swipe_L1_TubeEng.jl: This file is used to plot the Poincare section of Down-Up tubes at different energy level. Its resulting figures are used in Fig.8 of our paper.
+- Plot_EDP_Swipe_L2_TubeEng.jl: This file is used to plot the Poincare section of Up-Down tubes at different energy level.
 
 
 
