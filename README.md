@@ -37,7 +37,17 @@ Pendulums are simple mechanical systems that have been studied for centuries and
 ## Cite: 
 If you find our project useful, please feel free to cite it as:
 
-(Empty for now, will update when the paper is uploaded to Arxiv).
+@misc{https://doi.org/10.48550/arxiv.2209.10132,
+  doi = {10.48550/ARXIV.2209.10132},
+  url = {https://arxiv.org/abs/2209.10132},
+  author = {Kaheman, Kadierdan and Bramburger, Jason J. and Kutz, J. Nathan and Brunton, Steven L.},
+  keywords = {Dynamical Systems (math.DS), FOS: Mathematics, FOS: Mathematics, 37J46, 65P99},
+  title = {Saddle Transport and Chaos in the Double Pendulum},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 
 
 
