@@ -1,9 +1,9 @@
-# This repository contains the file needed for paper *"[Saddle Transport and Chaos in the Double Pendulum](https://arxiv.org/abs/2209.10132)"* by Kaheman and Bramburger et al. 
+# This repository contains the file needed for paper *"Saddle Transport and Chaos in the Double Pendulum"*([Arxiv](https://arxiv.org/abs/2209.10132))([Journal: Nonlinear Dynamics](https://link.springer.com/article/10.1007/s11071-023-08232-0)) by Kaheman and Bramburger et al. 
 
 ## Note: Both Kadierdan Kaheman and Jason J. Bramburger contributed equally to this paper, and they share the first authorship.
 
 ## Overview:
-Pendulums are simple mechanical systems that have been studied for centuries and showcase almost every aspect of modern dynamical systems theory. In particular, the double pendulum is a prototypical example of a chaotic system that is easily visualized and so is used to convey the most basic characteristics of complex dynamics. However, little reseach has been done on studying its global pathways, termed tubes, that enable macroscopic transport over vast regions of phase space. Motivated in part by similar studies on the three body problem, we are able to draw a direct comparison between the dynamics of the double pendulum and interstellar transport which exist on vastly different scales. We demonstrate that the double pendulum is a perfect analog system of the three-body problem, as following two figures show. Thus, the double pendulum comes as an excellent table-top testing ground for space mission design that seeks to exploit the gravitationally determined pathways known to exist in multi-body systems. The results of this manuscript detail is a variety of acrobatic motions for the double pendulum in physical space that can be identified and controlled to entrain its motion. For more details, pelase check out our paper *"[Saddle Transport and Chaos in the Double Pendulum](https://arxiv.org/abs/2209.10132)"*.
+Pendulums are simple mechanical systems that have been studied for centuries and showcase almost every aspect of modern dynamical systems theory. In particular, the double pendulum is a prototypical example of a chaotic system that is easily visualized and so is used to convey the most basic characteristics of complex dynamics. However, little reseach has been done on studying its global pathways, termed tubes, that enable macroscopic transport over vast regions of phase space. Motivated in part by similar studies on the three body problem, we are able to draw a direct comparison between the dynamics of the double pendulum and interstellar transport which exist on vastly different scales. We demonstrate that the double pendulum is a perfect analog system of the three-body problem, as following two figures show. Thus, the double pendulum comes as an excellent table-top testing ground for space mission design that seeks to exploit the gravitationally determined pathways known to exist in multi-body systems. The results of this manuscript detail is a variety of acrobatic motions for the double pendulum in physical space that can be identified and controlled to entrain its motion. For more details, pelase check out our paper *"Saddle Transport and Chaos in the Double Pendulum"*([Arxiv](https://arxiv.org/abs/2209.10132))([Journal: Nonlinear Dynamics](https://link.springer.com/article/10.1007/s11071-023-08232-0)).
 
 ![](Images/Analog1.png)
 
@@ -37,24 +37,14 @@ Pendulums are simple mechanical systems that have been studied for centuries and
 ## Cite: 
 If you find our project useful, please feel free to cite it as:
 
-@misc{https://doi.org/10.48550/arxiv.2209.10132,
-  doi = {10.48550/ARXIV.2209.10132},
-  
-  url = {https://arxiv.org/abs/2209.10132},
-  
-  author = {Kaheman, Kadierdan and Bramburger, Jason J. and Kutz, J. Nathan and Brunton, Steven L.},
-  
-  keywords = {Dynamical Systems (math.DS), FOS: Mathematics, FOS: Mathematics, 37J46, 65P99},
-  
-  title = {Saddle Transport and Chaos in the Double Pendulum},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{KahemanBramburger2023saddle,
+  title={Saddle transport and chaos in the double pendulum},
+  author={Kaheman, Kadierdan and Bramburger, Jason J and Kutz, J Nathan and Brunton, Steven L},
+  journal={Nonlinear Dynamics},
+  pages={1--35},
+  year={2023},
+  publisher={Springer}
 }
-
 
 
 
